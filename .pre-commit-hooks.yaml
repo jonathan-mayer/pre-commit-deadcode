@@ -1,0 +1,7 @@
+- id: go-deadcode
+  name: go-deadcode
+  description: Finds deadcode within go files
+  entry: deadcode.sh
+  language: "script"
+  files: \.go$
+  pass_filenames: false
